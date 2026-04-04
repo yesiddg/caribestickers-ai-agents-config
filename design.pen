@@ -1,0 +1,2215 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "2tFI7",
+      "x": 0,
+      "y": 0,
+      "name": "CaribeStickers Homepage",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "barsH",
+          "name": "Header",
+          "width": "fill_container",
+          "height": "fit_content(0)"
+        },
+        {
+          "type": "frame",
+          "id": "dIxEd",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 600,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ipt7D",
+              "x": 120,
+              "y": 80,
+              "name": "Hero Text",
+              "width": 560,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ch9Ck",
+                  "name": "heroBadge",
+                  "fill": "#C8FC3833",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "98uHo",
+                      "name": "badgeDot",
+                      "fill": "#C8FC38",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "DF2T0",
+                      "name": "badgeText",
+                      "fill": "#000000",
+                      "content": "Caribbean-Inspired Premium Stickers",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dVV2b",
+                  "name": "heroHeadline",
+                  "fill": "#397367",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Stick Your Caribbean Vibe Everywhere",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 56,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "zQWdK",
+                  "name": "heroSub",
+                  "fill": "#555555",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Premium vinyl stickers bursting with tropical colors, cute characters, and island energy. Waterproof. Vivid. Made to make everything yours.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "h3BZ6",
+                  "name": "ctaRow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "JvcS7",
+                      "type": "ref",
+                      "ref": "JqKmM",
+                      "name": "ctaPrimary",
+                      "fill": "#000000ff",
+                      "descendants": {
+                        "IIGJB": {
+                          "content": "Comprar stickers",
+                          "fill": "#ffffffff"
+                        },
+                        "Xaxor": {
+                          "fill": "#ffffffff"
+                        }
+                      }
+                    },
+                    {
+                      "id": "kUztR",
+                      "type": "ref",
+                      "ref": "DP2wS",
+                      "name": "ctaSecondary",
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#397367"
+                      },
+                      "descendants": {
+                        "IM0nd": {
+                          "content": "Ver packs",
+                          "fill": "#397367"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hvWvS",
+              "x": 780,
+              "y": 50,
+              "name": "Hero Visual",
+              "width": 500,
+              "height": 480,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1771559242401.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 32,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            {
+              "type": "frame",
+              "id": "U0bPy",
+              "x": 1100,
+              "y": 400,
+              "name": "heroFloat2",
+              "rotation": -8,
+              "width": 56,
+              "height": 56,
+              "fill": "#63CCCA",
+              "cornerRadius": 14,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MY4Iw",
+                  "name": "heroEmoji2",
+                  "content": "🌺",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tudTt",
+          "name": "Benefits",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BeQAh",
+              "name": "benefitsHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1XpZy",
+                  "name": "benefitsLabel",
+                  "fill": "#FF6B6B",
+                  "content": "WHY CARIBE?",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "m95QH",
+                  "name": "benefitsTitle",
+                  "fill": "#1A1A2E",
+                  "content": "Quality You Can Feel",
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 40,
+                  "fontWeight": "800"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ym2lI",
+              "name": "Benefits Grid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iqtSt",
+                  "name": "Waterproof",
+                  "width": "fill_container",
+                  "fill": "#E0F7F5",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CZq8D",
+                      "name": "b1Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#00C9B7",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "12YU9",
+                          "name": "b1IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "droplets",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vvXBt",
+                      "name": "b1Title",
+                      "fill": "#1A1A2E",
+                      "content": "Resistentes al agua",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O70O9",
+                      "name": "b1Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Rain, splash, or spill — your stickers stay perfect through it all.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vH3My",
+                  "name": "Premium Vinyl",
+                  "width": "fill_container",
+                  "fill": "#FFF0E5",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "buggO",
+                      "name": "b2Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#FF6B6B",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "7qICe",
+                          "name": "b2IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "shield-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kzP29",
+                      "name": "b2Title",
+                      "fill": "#1A1A2E",
+                      "content": "Materiales premium",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PzJS1",
+                      "name": "b2Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Thick, durable material that won't peel, fade, or crack over time.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gOnbL",
+                  "name": "Vibrant Colors",
+                  "width": "fill_container",
+                  "height": 247,
+                  "fill": "#FFF5E0",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QaTIb",
+                      "name": "b3Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#FFD93D",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "UWRXH",
+                          "name": "b3IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "palette",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ieNdr",
+                      "name": "b3Title",
+                      "fill": "#1A1A2E",
+                      "content": "Colores vibrantes",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jfUlj",
+                      "name": "b3Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Bold, saturated inks that pop on any surface and stay vivid.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "89p0U",
+                  "name": "Handmade",
+                  "width": "fill_container",
+                  "fill": "#FFE8F0",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "txS0A",
+                      "name": "b4Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "#FF69B4",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "r91TU",
+                          "name": "b4IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "heart-handshake",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kgqRy",
+                      "name": "b4Title",
+                      "fill": "#1A1A2E",
+                      "content": "Hechos con amor",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eGatv",
+                      "name": "b4Desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Each sticker is designed and crafted with care by Caribbean artists.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "puIJf",
+          "name": "Categories",
+          "width": "fill_container",
+          "fill": "#fafafa",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "N9W9E",
+              "name": "catsHeader",
+              "height": 110,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ekHUg",
+                  "name": "catsLabel",
+                  "fill": "#000000ff",
+                  "content": "EXPLORE STYLES",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "UGGFp",
+                  "name": "catsTitle",
+                  "fill": "#397367ff",
+                  "content": "Find Your Aesthetic",
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 40,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "V6nKp",
+                  "name": "catsSub",
+                  "fill": "#999999",
+                  "content": "From cute to cosmic — we have a vibe for every personality.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KSwA7",
+              "name": "Categories Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TEzi3",
+                  "name": "Cute",
+                  "clip": true,
+                  "width": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "APKqM",
+                      "name": "cat1Img",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771559366216.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RqP7w",
+                      "name": "cat1Info",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b9KxJ",
+                          "name": "cat1Title",
+                          "fill": "#1A1A2E",
+                          "content": "Stickers para pareja",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "TEbAB",
+                          "name": "cat1Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#000000ff"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XWDVe",
+                  "name": "Aesthetic",
+                  "clip": true,
+                  "width": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WhLgY",
+                      "name": "cat2Img",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771559372632.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d6hGO",
+                      "name": "cat2Info",
+                      "width": "fill_container",
+                      "fill": "#ffffffff",
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wMQ6Y",
+                          "name": "cat2Title",
+                          "fill": "#1A1A2E",
+                          "content": "Aesthetic",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "anNvm",
+                          "name": "cat2Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#000000ff"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mgkpG",
+                  "name": "Holographic",
+                  "clip": true,
+                  "width": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L4TX8",
+                      "name": "cat3Img",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771559383734.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NSH74",
+                      "name": "cat3Info",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zqvEf",
+                          "name": "cat3Title",
+                          "fill": "#1A1A2E",
+                          "content": "Holográficos",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "oUIFI",
+                          "name": "cat3Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#000000ff"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FYn4g",
+                  "name": "Metallic",
+                  "clip": true,
+                  "width": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7TogB",
+                      "name": "cat4Img",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1771559390029.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CjFft",
+                      "name": "cat4Info",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SeOTI",
+                          "name": "cat4Title",
+                          "fill": "#1A1A2E",
+                          "content": "Metálicos",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "zXZzM",
+                          "name": "cat4Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#000000ff"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ADyvo",
+          "name": "Social Proof",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uz7Td",
+              "name": "socialHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M796y",
+                  "name": "socialLabel",
+                  "fill": "#FFD93D",
+                  "content": "LOVED BY THOUSANDS",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "gO8u1",
+                  "name": "socialTitle",
+                  "fill": "#1A1A2E",
+                  "content": "What Our Sticker Fam Says",
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 40,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "frame",
+                  "id": "wUHPs",
+                  "name": "starsRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ariLf",
+                      "name": "star1",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFD93D"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "T4sTL",
+                      "name": "star2",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFD93D"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "OU027",
+                      "name": "star3",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFD93D"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "cqTGG",
+                      "name": "star4",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFD93D"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "e9TEs",
+                      "name": "star5",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFD93D"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6IBmc",
+                      "name": "starText",
+                      "fill": "#777777",
+                      "content": "4.9 / 5 from 2,400+ reviews",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mhj3E",
+              "name": "Reviews",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t3Ku7",
+                  "name": "Review 1",
+                  "width": "fill_container",
+                  "fill": "#F8F8F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Lwrvw",
+                      "name": "r1Stars",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "c5sZ7",
+                          "name": "r1s1",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "9OcNg",
+                          "name": "r1s2",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "CS9wR",
+                          "name": "r1s3",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "Gfs8a",
+                          "name": "r1s4",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "AxMH6",
+                          "name": "r1s5",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GQ2eX",
+                      "name": "r1Quote",
+                      "fill": "#444444",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;These stickers are INSANE! The colors are so vivid and they survived my water bottle falling in the pool. 10/10 island vibes.&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9LwZp",
+                      "name": "r1Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "eb4jU",
+                          "name": "r1Avatar",
+                          "fill": "#00C9B7",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "text",
+                          "id": "0WtnC",
+                          "name": "r1Name",
+                          "fill": "#1A1A2E",
+                          "content": "Maya R.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bIZM8",
+                  "name": "Review 2",
+                  "width": "fill_container",
+                  "fill": "#F8F8F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Sw9PT",
+                      "name": "r1Stars",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "JOTfn",
+                          "name": "r1s1",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "BNwLL",
+                          "name": "r1s2",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "AqWoi",
+                          "name": "r1s3",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "rETMn",
+                          "name": "r1s4",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "lOtYE",
+                          "name": "r1s5",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "7NFz5",
+                      "name": "r1Quote",
+                      "fill": "#444444",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;My laptop is literally a tropical paradise now. Everyone asks where I got them. The holographic ones are STUNNING.&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NPK24",
+                      "name": "r1Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "RmwwN",
+                          "name": "r1Avatar",
+                          "fill": "#FF6B6B",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "text",
+                          "id": "xRogZ",
+                          "name": "r1Name",
+                          "fill": "#1A1A2E",
+                          "content": "Jamal T.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3mAbb",
+                  "name": "Review 3",
+                  "width": "fill_container",
+                  "fill": "#F8F8F8",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KoOGh",
+                      "name": "r1Stars",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xtYus",
+                          "name": "r1s1",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "To2HD",
+                          "name": "r1s2",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "jrwsv",
+                          "name": "r1s3",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "iJASB",
+                          "name": "r1s4",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "GLmxN",
+                          "name": "r1s5",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFD93D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "BMV8D",
+                      "name": "r1Quote",
+                      "fill": "#444444",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;Bought the 24-pack for my art journal and I'm obsessed. The quality is chef's kiss. Already ordering more for my friends!&quot;",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QeF0L",
+                      "name": "r1Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "6UkEq",
+                          "name": "r1Avatar",
+                          "fill": "#FF69B4",
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "text",
+                          "id": "xdgs0",
+                          "name": "r1Name",
+                          "fill": "#1A1A2E",
+                          "content": "Sofia L.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "20S6P",
+              "name": "Instagram Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FT9im",
+                  "name": "igLabel",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "dmcQ8",
+                      "name": "igIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FF69B4"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XN2iD",
+                      "name": "igText",
+                      "fill": "#FF69B4",
+                      "content": "@caribestickers",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iSoVp",
+                  "name": "igGrid",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SJkLV",
+                      "name": "ig1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "pinjasaur",
+                        "link": "https://unsplash.com/@pinjasaur",
+                        "author": "Paul Esch-Laurent"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1694407912076-35c94cfc9766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NTk0MzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HmcZp",
+                      "name": "ig2",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "theresiahent",
+                        "link": "https://unsplash.com/@theresiahent",
+                        "author": "Theresia Hent"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1753610992331-6ec87a536b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NTk0MzJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TVr5a",
+                      "name": "ig3",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "owekiofu",
+                        "link": "https://unsplash.com/@owekiofu",
+                        "author": "Ü Lõ"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1731927321922-1df90db6a286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NTk0MzJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eDWlk",
+                      "name": "ig4",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "kriptgo",
+                        "link": "https://unsplash.com/@kriptgo",
+                        "author": "Kiryl"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1651404248467-f8c0a1e67de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NTk0MzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u8qg8",
+                      "name": "ig5",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "sleeba_thomas",
+                        "link": "https://unsplash.com/@sleeba_thomas",
+                        "author": "Sleeba Thomas"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1736791607465-d2a7d79d383e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1NTk0MzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PTD7v",
+          "name": "Newsletter",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#397367",
+                "position": 0
+              },
+              {
+                "color": "#63ccca",
+                "position": 0.5
+              },
+              {
+                "color": "#5da399",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "esd3p",
+              "name": "nlTitle",
+              "fill": "#FFFFFF",
+              "content": "Obtén un 20% de descuento en tu primera compra",
+              "textAlign": "center",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 40,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "fwnSv",
+              "name": "nlSub",
+              "fill": "#FFFFFFCC",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Join the Caribe crew and get exclusive drops, deals, and sticker inspo straight to your inbox.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "1QizY",
+              "name": "nlForm",
+              "fill": "#FFFFFF",
+              "cornerRadius": 100,
+              "padding": [
+                6,
+                6,
+                6,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jDDRz",
+                  "name": "nlInput",
+                  "fill": "#AAAAAA",
+                  "content": "mi-correo@email.com",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "1ETLG",
+                  "name": "nlBtn",
+                  "fill": "#000000ff",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4m3SW",
+                      "name": "nlBtnText",
+                      "fill": "#FFFFFF",
+                      "content": "Suscribirse",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "KEsrc",
+                      "name": "nlBtnIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "send",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "DRVH6",
+              "name": "nlTrust",
+              "fill": "#FFFFFF99",
+              "content": "No spam, just vibes. Unsubscribe anytime.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kSXEi",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#1A1A2E",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            120,
+            32,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Sm5xC",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4MvVu",
+                  "name": "footerBrand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VGxyK",
+                      "name": "footerLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AxuXp",
+                          "name": "fLogoIcon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#00C9B7",
+                          "cornerRadius": 10,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A3hvQ",
+                              "name": "fLogoStar",
+                              "fill": "#FFFFFF",
+                              "content": "✦",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ed4kO",
+                          "name": "fLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "CaribeStickers",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "800"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "9oXXr",
+                      "name": "fTagline",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Premium vinyl stickers inspired by Caribbean culture, color, and creativity.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EV2iV",
+                      "name": "fSocials",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "6G2m9",
+                          "name": "fIg",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#888888"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "Ji405",
+                          "name": "fTw",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "twitter",
+                          "iconFontFamily": "lucide",
+                          "fill": "#888888"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "zj2c8",
+                          "name": "fTk",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "youtube",
+                          "iconFontFamily": "lucide",
+                          "fill": "#888888"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZBdOM",
+                  "name": "fCol1",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "npSoe",
+                      "name": "fCol1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Shop",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VLNdj",
+                      "name": "fCol1L1",
+                      "fill": "#888888",
+                      "content": "All Stickers",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8yh9h",
+                      "name": "fCol1L2",
+                      "fill": "#888888",
+                      "content": "Sticker Packs",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2IiBv",
+                      "name": "fCol1L3",
+                      "fill": "#888888",
+                      "content": "New Arrivals",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DYZCT",
+                      "name": "fCol1L4",
+                      "fill": "#888888",
+                      "content": "Best Sellers",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9MJzK",
+                  "name": "fCol2",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s7KCm",
+                      "name": "fCol2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Categories",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GHBgg",
+                      "name": "fCol2L1",
+                      "fill": "#888888",
+                      "content": "Cute",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W6nUP",
+                      "name": "fCol2L2",
+                      "fill": "#888888",
+                      "content": "Aesthetic",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OCJ8V",
+                      "name": "fCol2L3",
+                      "fill": "#888888",
+                      "content": "Holographic",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JdCOG",
+                      "name": "fCol2L4",
+                      "fill": "#888888",
+                      "content": "Metallic",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hRFyM",
+                  "name": "fCol3",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zAUzK",
+                      "name": "fCol3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Company",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rDCHo",
+                      "name": "fCol3L1",
+                      "fill": "#888888",
+                      "content": "About Us",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zR4oP",
+                      "name": "fCol3L2",
+                      "fill": "#888888",
+                      "content": "Contact",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9VADC",
+                      "name": "fCol3L3",
+                      "fill": "#888888",
+                      "content": "Shipping",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4mpLa",
+                      "name": "fCol3L4",
+                      "fill": "#888888",
+                      "content": "Returns",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k7Cbz",
+              "name": "divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#333333"
+            },
+            {
+              "type": "frame",
+              "id": "IKeVf",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fj6Mi",
+                  "name": "copyright",
+                  "fill": "#666666",
+                  "content": "© 2026 CaribeStickers. All rights reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "SOFp5",
+                  "name": "madeWith",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6m7ee",
+                      "name": "madeText",
+                      "fill": "#666666",
+                      "content": "Made with",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "WPr5k",
+                      "name": "madeHeart",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FF6B6B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VeXf9",
+                      "name": "madeText2",
+                      "fill": "#666666",
+                      "content": "in the Caribbean",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6oEsw",
+          "name": "Design System",
+          "width": 1440,
+          "height": 475,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "JqKmM",
+              "name": "Primary Button",
+              "reusable": true,
+              "fill": "#000000",
+              "cornerRadius": 100,
+              "gap": 10,
+              "padding": [
+                16,
+                36
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IIGJB",
+                  "name": "btnText",
+                  "fill": "#FFFFFF",
+                  "content": "Button Text",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "Xaxor",
+                  "name": "btnIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DP2wS",
+              "name": "Secondary Button",
+              "reusable": true,
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 2,
+                "fill": "#1A1A2E"
+              },
+              "gap": 10,
+              "padding": [
+                16,
+                36
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IM0nd",
+                  "name": "btnText",
+                  "fill": "#1A1A2E",
+                  "content": "Button Text",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V5muD",
+              "name": "Pack Button",
+              "reusable": true,
+              "width": "fill_container",
+              "fill": "#1A1A2E",
+              "cornerRadius": 100,
+              "padding": [
+                12,
+                32
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oCEC8",
+                  "name": "btnText",
+                  "fill": "#FFFFFF",
+                  "content": "Button Text",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EQIXb",
+              "name": "Color Palette",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GSSH3",
+                  "name": "Black Swatch",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TrZYl",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#000000",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "7vzGI",
+                      "fill": "#000000",
+                      "content": "Black - #000000",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TrUii",
+                  "name": "Yellow Swatch",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AMnUv",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#C8FC38",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "5jdPg",
+                      "fill": "#000000",
+                      "content": "Yellow - #C8FC38",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GMizd",
+                  "name": "Teal Swatch",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sutEg",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#397367",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "YGOeY",
+                      "fill": "#000000",
+                      "content": "Teal - #397367",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cc2sv",
+                  "name": "Aqua Swatch",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gDnMf",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#63CCCA",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "fIkja",
+                      "fill": "#000000",
+                      "content": "Aqua - #63CCCA",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L1G4t",
+                  "name": "Slate Swatch",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "egvkC",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#5DA399",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "poPxq",
+                      "fill": "#000000",
+                      "content": "Slate - #5DA399",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N2gev",
+          "name": "Cart Page",
+          "width": 1440,
+          "height": "fit_content(0)",
+          "fill": "#FFFFFF",
+          "layout": "vertical"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qy95b",
+      "x": 0,
+      "y": 0,
+      "name": "Cart Container",
+      "enabled": false,
+      "width": "fill_container(0)",
+      "height": "fit_content(320)",
+      "gap": 40,
+      "padding": [
+        40,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ctye7",
+          "name": "Cart Items",
+          "enabled": false,
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "yI6Wh",
+              "name": "cartTitle",
+              "fill": "#1A1A2E",
+              "content": "Your Cart",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "91lC5",
+              "name": "Cart List",
+              "width": "fill_container",
+              "height": "fit_content(176)",
+              "layout": "vertical",
+              "gap": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

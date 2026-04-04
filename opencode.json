@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "medusa": {
+      "enabled": true,
+      "type": "remote",
+      "url": "https://docs.medusajs.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "medusa": {
+      "httpUrl": "https://docs.medusajs.com/mcp"
+    }
+  },
+  "$version": 3
+}

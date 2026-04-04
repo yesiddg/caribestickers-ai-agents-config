@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "sentry@claude-plugins-official": true,
+    "example-skills@anthropic-agent-skills": true
+  }
+}
