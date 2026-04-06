@@ -19,6 +19,14 @@ Each directory has its own `package.json`, `node_modules`, and must be run indep
 - Don't push to the remote repository.
 - Don't open pull requests.
 - Don't merge or rebase branches.
+- Using SSR components as much as possible.
+- Using "use client" is strictly forbidden unless absolutely necessary.
+
+Note: "use client" is only allowed when:
+
+- Client-side interactivity is required (events like onClick, onChange, etc.)
+- React hooks are needed (useState, useEffect, useRef, etc.)
+- Access to browser APIs is required (DOM, window, localStorage, etc.)
 
 ## Build/Lint/Test Commands
 

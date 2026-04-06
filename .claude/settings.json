@@ -1,6 +1,13 @@
 {
   "enabledPlugins": {
     "sentry@claude-plugins-official": true,
-    "example-skills@anthropic-agent-skills": true
+    "example-skills@anthropic-agent-skills": true,
+    "medusa-dev@medusa": true,
+    "ecommerce-storefront@medusa": true,
+    "learn-medusa@medusa": true,
+    "frontend-design@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true
   }
 }
